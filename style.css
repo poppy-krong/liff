@@ -2,7 +2,7 @@ p {
   margin-top: 10px;
 }
 .gallery {
-  margin: 20px;
+  margin: 0px;
   text-align: center;
   /* width: 180px; */
 }
@@ -18,7 +18,7 @@ p {
 }
 @media screen and (min-width : 375px) {
   .gallery {
-    margin: 30px;
+    margin: 0px;
     text-align: center;
 
   }
