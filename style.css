@@ -18,12 +18,13 @@ p {
 }
 @media screen and (min-width : 375px) {
   .gallery {
-    margin: 0px;
+    margin: 10px;
     text-align: center;
+    width: 25%;
 
   }
   .gallery img {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
   p {
