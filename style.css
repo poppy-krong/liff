@@ -1,41 +1,42 @@
-p {
-  margin-top: 10px;
+body {
+  background-image: url('img/background.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-attachment: fixed; */
 }
+
 .gallery {
-  margin: 0px;
-  text-align: center;
-  /* width: 180px; */
+    margin: 0px;
+    text-align: center;
+    /* width: 180px; */
 }
+
 .topbox {
-  margin: 20px;
-  font-size: 30px;
-  text-align: center;
+    margin-top: 20%;
+
 }
 
 .gallery img {
-  width: 50%;
-  height: auto;
-}
-@media screen and (min-width : 375px) {
-  .gallery {
-    margin: 4%;
-    text-align: center;
-    width: 25%;
-
-  }
-  .gallery img {
-    width: 80%;
+    width: 50%;
     height: auto;
-  }
-  p {
-    margin-top: 15px !important;
-    color: #000;
-    text-align: center;
-  }
-  .topbox {
-    margin: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+}
 
-  }
+@media screen and (min-width : 375px) {
+    .gallery {
+        margin: 4%;
+        text-align: center;
+        width: 25%;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .topbox {
+        margin-top: 20%;
+
+    }
+
+}
